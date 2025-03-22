@@ -177,8 +177,8 @@ const PortfolioGrid = () => {
         <div className="text-center mb-12">
           <h2 className="text-3xl font-bold mb-4">Our Portfolio</h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Explore our recent projects and see how we've helped businesses
-            transform their digital presence.
+            Explore our strategic projects and see how we've helped businesses
+            achieve digital excellence and market leadership.
           </p>
         </div>
 

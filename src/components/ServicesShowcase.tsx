@@ -83,8 +83,8 @@ const ServicesShowcase = () => {
         <div className="text-center mb-12">
           <h2 className="text-3xl font-bold mb-4">Our Services</h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Comprehensive digital solutions tailored to help your business grow
-            and succeed online.
+            Strategic digital solutions designed to position your business as an
+            industry leader and drive sustainable growth.
           </p>
         </div>
 

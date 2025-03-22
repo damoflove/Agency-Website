@@ -12,8 +12,8 @@ interface HeroSectionProps {
 }
 
 const HeroSection = ({
-  title = "Next-Level Digital Solutions for Growing Businesses",
-  subtitle = "We help ambitious businesses transform their digital presence with modern, effective solutions that drive growth and engagement.",
+  title = "Strategic Digital Solutions for Industry Leaders",
+  subtitle = "We empower businesses with cutting-edge digital strategies and technologies that drive innovation, growth, and market dominance.",
   ctaText = "Get Started",
   ctaLink = "/contact",
   backgroundImage = "https://images.unsplash.com/photo-1550745165-9bc0b252726f?w=1920&q=90",
@@ -43,7 +43,7 @@ const HeroSection = ({
           <div className="inline-flex items-center gap-2 bg-white/10 backdrop-blur-sm px-4 py-2 rounded-full mb-6 border border-white/20">
             <Sparkles size={16} className="text-yellow-400" />
             <span className="text-white/90 text-sm font-medium">
-              Transforming Digital Experiences
+              Elevating Digital Excellence
             </span>
           </div>
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6 leading-tight">

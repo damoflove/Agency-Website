@@ -8,32 +8,32 @@ import { ArrowRight, Award, Clock, Users, Zap } from "lucide-react";
 const AboutUs = () => {
   const teamMembers = [
     {
-      name: "Sarah Johnson",
+      name: "Alex Morgan",
       role: "Founder & CEO",
-      bio: "With over 15 years of experience in digital marketing and web development, Sarah founded Nexa Digital Hub to help businesses achieve their full online potential.",
-      image:
-        "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=300&q=80",
-    },
-    {
-      name: "Michael Chen",
-      role: "Lead Developer",
-      bio: "Michael brings 10+ years of expertise in full-stack development, specializing in React, Node.js, and modern web technologies.",
+      bio: "With over 18 years of experience in digital strategy and business transformation, Alex founded ICMGX to help businesses achieve market leadership through digital excellence.",
       image:
         "https://images.unsplash.com/photo-1560250097-0b93528c311a?w=300&q=80",
     },
     {
-      name: "Jessica Williams",
-      role: "Creative Director",
-      bio: "With a background in graphic design and UX/UI, Jessica ensures all our projects are visually stunning and user-friendly.",
+      name: "Sophia Chen",
+      role: "Chief Technology Officer",
+      bio: "Sophia brings 12+ years of expertise in enterprise architecture and emerging technologies, specializing in AI integration, cloud solutions, and scalable platforms.",
       image:
-        "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=300&q=80",
+        "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=300&q=80",
     },
     {
-      name: "David Rodriguez",
-      role: "Marketing Strategist",
-      bio: "David specializes in creating data-driven marketing strategies that deliver measurable results for our clients.",
+      name: "Marcus Williams",
+      role: "Strategy Director",
+      bio: "With a background in business strategy and digital transformation, Marcus ensures all our solutions deliver measurable business impact and competitive advantage.",
       image:
         "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=300&q=80",
+    },
+    {
+      name: "Priya Sharma",
+      role: "Innovation Lead",
+      bio: "Priya specializes in identifying emerging technologies and market opportunities that position our clients at the forefront of their industries.",
+      image:
+        "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=300&q=80",
     },
   ];
 
@@ -72,10 +72,10 @@ const AboutUs = () => {
       <section className="bg-gray-50 py-20">
         <div className="container mx-auto px-4">
           <div className="max-w-3xl mx-auto text-center">
-            <h1 className="text-4xl font-bold mb-6">About Nexa Digital Hub</h1>
+            <h1 className="text-4xl font-bold mb-6">About ICMGX</h1>
             <p className="text-xl text-gray-600 mb-8">
-              We're a team of digital experts passionate about helping
-              businesses thrive in the online world.
+              We're a team of strategic digital innovators dedicated to helping
+              businesses achieve excellence and leadership in their industries.
             </p>
           </div>
         </div>
@@ -88,11 +88,11 @@ const AboutUs = () => {
             <div>
               <h2 className="text-3xl font-bold mb-6">Our Story</h2>
               <p className="text-gray-600 mb-4">
-                Founded in 2018, Nexa Digital Hub began with a simple mission:
-                to provide businesses with high-quality digital solutions that
-                drive real results. What started as a small team of passionate
-                digital experts has grown into a full-service agency serving
-                clients across multiple industries.
+                Founded in 2015, ICMGX began with a clear vision: to provide
+                businesses with strategic digital solutions that drive
+                exceptional results. What started as a specialized team of
+                digital strategists has evolved into a comprehensive agency
+                serving industry leaders across diverse sectors.
               </p>
               <p className="text-gray-600 mb-4">
                 We noticed that many businesses were struggling to navigate the
@@ -102,11 +102,11 @@ const AboutUs = () => {
                 address their unique needs.
               </p>
               <p className="text-gray-600 mb-6">
-                That's why we built Nexa Digital Hub as an integrated agency
-                that combines technical expertise with strategic thinking. We
-                bring together web development, content creation, and digital
-                marketing under one roof to deliver cohesive solutions that help
-                our clients achieve their business goals.
+                That's why we built ICMGX as an integrated agency that combines
+                technical innovation with strategic vision. We bring together
+                advanced development, content strategy, and digital marketing
+                expertise to deliver comprehensive solutions that help our
+                clients achieve market leadership and sustainable growth.
               </p>
               <Button asChild>
                 <Link to="/contact" className="inline-flex items-center gap-2">
@@ -121,8 +121,8 @@ const AboutUs = () => {
                 className="rounded-lg shadow-lg w-full"
               />
               <div className="absolute -bottom-6 -left-6 bg-primary text-white p-6 rounded-lg shadow-lg">
-                <p className="text-2xl font-bold">5+ Years</p>
-                <p>of digital excellence</p>
+                <p className="text-2xl font-bold">8+ Years</p>
+                <p>of digital innovation</p>
               </div>
             </div>
           </div>
@@ -135,7 +135,7 @@ const AboutUs = () => {
           <div className="text-center mb-12">
             <h2 className="text-3xl font-bold mb-4">Our Values</h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              These core principles guide everything we do at Nexa Digital Hub.
+              These core principles guide everything we do at ICMGX.
             </p>
           </div>
 
@@ -160,7 +160,7 @@ const AboutUs = () => {
           <div className="text-center mb-12">
             <h2 className="text-3xl font-bold mb-4">Meet Our Team</h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              The talented people behind Nexa Digital Hub's success.
+              The talented people behind ICMGX's success.
             </p>
           </div>
 

@@ -19,10 +19,10 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {/* Company Info */}
           <div>
-            <h3 className="text-xl font-bold mb-4">Nexa Digital Hub</h3>
+            <h3 className="text-xl font-bold mb-4">ICMGX</h3>
             <p className="mb-4 text-gray-400">
-              Next-level digital solutions for growing businesses. We help
-              ambitious companies transform their online presence.
+              Innovative digital solutions for forward-thinking businesses. We
+              help companies achieve digital excellence and market leadership.
             </p>
             <div className="flex space-x-4">
               <a
@@ -123,10 +123,10 @@ const Footer = () => {
               <li className="flex items-center">
                 <Mail className="mr-2 h-5 w-5 text-gray-400" />
                 <a
-                  href="mailto:info@nexadigitalhub.com"
+                  href="mailto:info@icmgx.com"
                   className="text-gray-400 hover:text-white transition-colors"
                 >
-                  info@nexadigitalhub.com
+                  info@icmgx.com
                 </a>
               </li>
             </ul>
@@ -150,10 +150,7 @@ const Footer = () => {
         </div>
 
         <div className="border-t border-gray-800 mt-12 pt-8 text-center text-gray-400">
-          <p>
-            &copy; {new Date().getFullYear()} Nexa Digital Hub. All rights
-            reserved.
-          </p>
+          <p>&copy; {new Date().getFullYear()} ICMGX. All rights reserved.</p>
           <div className="mt-2 flex justify-center space-x-4 text-sm">
             <a href="#" className="hover:text-white transition-colors">
               Privacy Policy

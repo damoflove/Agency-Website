@@ -20,7 +20,7 @@ const Header = () => {
       <div className="container mx-auto px-4 py-4 flex justify-between items-center">
         <div className="flex items-center">
           <Link to="/" className="text-xl font-bold text-primary">
-            Nexa Digital Hub
+            ICMGX
           </Link>
         </div>
 
